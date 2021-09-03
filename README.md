@@ -2,7 +2,7 @@
 An example of transferring data from the Raspberry Pico ADC to a host PC for a random stranger on the internet! :) 
 Uses the ADC0 on GPIO26 
 
-Upload pico_ADC.py to your Pico device using Thonney
+Upload pico_ADC.py to your Pico device using Thonney \n
 Open host_ADC.py and set the COM port as required (line 24). 
 Run pico_ADC.py via Thonney. You should see a stream of numbers in the Shell window. 
 Close Thonney (to free up the serial port)
