@@ -8,7 +8,7 @@ import numpy as np
 
 def animate(i):
     global x
-    x += np.abs(np.random.randn())
+    x += 1
     y_str = ser.readline()
     #print(y)
     y = float(y_str.decode('utf-8')) * scaleFactor
